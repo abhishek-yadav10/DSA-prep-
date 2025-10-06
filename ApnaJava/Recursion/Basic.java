@@ -6,10 +6,9 @@ public class Basic {
         System.out.print(n);
         return;
       }
-      
        
+      System.out.print(" "+ n+" ");
       printDec(n-1);
-       System.out.print(" "+ n+" ");
     }
      
     public static void printnum(int n){
